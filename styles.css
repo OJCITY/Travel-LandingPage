@@ -1,0 +1,372 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  height: 100vh;
+  background-image: url("images/desktop-newyork-background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.header img {
+  background-image: transparent !important;
+  width: 200px;
+  float: left;
+  box-shadow: 0 4px 4px gray;
+}
+
+.header .nav-bar {
+  list-style: none;
+  margin: auto;
+  width: fit-content;
+  height: 50px;
+  box-shadow: 0 4px 4px gray;
+}
+
+.header .nav-bar li {
+  display: inline-block;
+  padding: 0 1.5rem;
+  text-align: center;
+}
+
+.header .nav-bar li a {
+  text-decoration: none;
+  color: red;
+  text-transform: uppercase;
+}
+
+.header .nav-bar li a:hover {
+  color: whitesmoke;
+  transform: 0.9s ease;
+  border-bottom: 2px solid rgba(61, 13, 106, 0.7);
+}
+
+.header .nav-bar li span .login-btn {
+  display: inline-flex;
+  justify-content: flex-end;
+}
+
+/*.login-nav {
+  padding-top: 15%;
+  justify-content: flex-end;
+}*/
+
+.login-btn {
+  width: 100px;
+  padding: 8px 0;
+  outline: none !important;
+  border: 2px solid white;
+  border-radius: 50px;
+  background: transparent;
+  color: red;
+  float: right;
+  cursor: pointer;
+}
+
+.header h1 {
+  padding: 260px;
+  padding-bottom: 0;
+  font-size: 55px;
+  color: white;
+}
+
+.header p {
+  margin: 18px 0;
+  color: whitesmoke;
+}
+
+.input-group {
+  width: 90% !important;
+  max-width: 500px;
+  border-radius: 30px;
+  background: white;
+  margin: auto;
+  padding: 2px;
+}
+
+.form-control {
+  border: 0 !important;
+  border-radius: 30px !important;
+  margin: 2px;
+  box-shadow: none !important;
+}
+
+.input-group-text {
+  width: 100px;
+  background-image: linear-gradient(#cca12a, #cc4a22);
+  border: 0 !important;
+  color: aliceblue;
+  padding: 10 25px !important;
+  border-radius: 30px !important;
+  box-shadow: none !important;
+}
+
+/*Features*/
+
+.features {
+  padding: 100px 0;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.feature-img img {
+  width: 100%;
+}
+
+.price {
+  width: 50px;
+  height: 50px;
+  background: #2d22ff;
+  color: white;
+  font-weight: 600;
+  border-radius: 30%;
+  padding: 10px;
+  box-shadow: #cca12a;
+  position: absolute;
+  left: 20px;
+  bottom: -25px;
+}
+
+.feature-img {
+  position: relative;
+}
+
+.rating {
+  padding: 3px;
+  float: right;
+  background: white;
+  bottom: -1px;
+  right: 0;
+  position: absolute;
+  color: rgb(36, 24, 200);
+}
+
+.features .fa {
+  font-size: 15px;
+}
+
+.feature-details {
+  padding: 22px;
+  text-align: justify;
+}
+
+.feature-details h4 {
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.feature-details .fa {
+  margin-right: 5px;
+  color: #2d22ff;
+}
+
+.feature-box {
+  box-shadow: 0 0 10px 1px rgba(37, 73, 214, 0.18);
+}
+
+.gallery {
+  padding: 100px 0;
+  background: #efefef;
+}
+
+.gallery-box img {
+  width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.gallery-box img:hover {
+  transform: scale(1.1);
+}
+
+.gallery-box h4 {
+  display: block;
+  color: #efefef;
+  text-shadow: -2px 2px 2px #000;
+  font-weight: 600;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.gallery-box {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+/* banner */
+
+.banner {
+  height: 80%;
+  background-image: url("images/original-banner1.JPG");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 15%;
+}
+
+.banner-highlights {
+  padding: 70px 0;
+  background: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  color: #efefef;
+}
+
+.booking-btn {
+  width: 120px;
+  padding: 8px 0;
+  outline: none !important;
+  border: 2px solid white;
+  border-radius: 50px;
+  background: transparent;
+  color: rgb(51, 235, 23);
+  margin-top: 20px;
+}
+
+.users-feedback {
+  padding: 100px 0;
+}
+
+.user-review {
+  text-align: center;
+  box-shadow: 0 0 10px 0 rgba(106, 13, 13, 0.7);
+  border-radius: 20px;
+  padding-bottom: 50px;
+}
+
+.user-review p {
+  padding: 50px 10px 10px 10px;
+  font-style: italic;
+  text-align: justify;
+}
+.users-feedback img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  position: relative;
+  margin: -30px 0 20px 40%;
+}
+
+.user-review p::before {
+  content: "\201C";
+  display: block;
+  position: absolute;
+  font-size: 100px;
+  color: #2d22ff;
+  font-family: sans-serif;
+  margin-top: -70px;
+  /*margin-left: 44px;*/
+}
+
+.footer {
+  padding: 100px 20px 15px;
+  background-image: linear-gradient(#2d557d, #9610fb);
+}
+
+.footer-logo {
+  width: 200px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.footer h4 {
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  color: #e00f4a;
+}
+
+.footer p {
+  font-size: 12px;
+  text-align: justify;
+  padding-right: 35px;
+  color: white;
+}
+
+.footer .row .fa {
+  padding-right: 20px;
+  font-size: 15px;
+}
+
+.footer .scrollTo-Top {
+  position: fixed;
+  bottom: 80px;
+  right: 50px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  justify-content: center;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  background: #0063e8;
+  color: #efefef;
+  pointer-events: auto;
+  transition: all 0.5s;
+  display: none;
+}
+
+.footer .scrollTo-Top:hover {
+  background: #e8008a;
+}
+
+.footer hr {
+  margin-top: 10px;
+  background: white;
+}
+
+.fa-heart {
+  margin: 0 5px;
+  color: #cc4a22;
+}
+
+.footer .copyright {
+  text-align: center;
+}
+
+/* Responsive design using media queries*/
+@media only screen and (max-width: 1200px) {
+  html,
+  body {
+    font-size: 14px;
+  }
+  .header .nav-bar li {
+    display: inline-block;
+    padding: 0 1.5rem;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  html,
+  body {
+    font-size: 12px;
+  }
+  .header .nav-bar li {
+    display: inline-block;
+    padding: 0 0.5rem;
+  }
+
+  .header {
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+  }
+
+  .header h1 {
+    font-size: 20px;
+    padding: 100px;
+    font-display: inherit;
+  }
+}
